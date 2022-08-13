@@ -1,0 +1,11 @@
+.page {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: 'Inter';
+  color: #FFF;
+  background-color: #2A2C2F;
+}
+
+/* div, a, p, ul, li, h1, h2, h3, h4, nav, td, tr, table, header, section, img {
+  border: 1px solid red;
+} */

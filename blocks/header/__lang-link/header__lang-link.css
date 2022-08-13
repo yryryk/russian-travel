@@ -1,0 +1,31 @@
+
+.header__lang-link {
+  display: flex;
+  justify-content: flex-end;
+  align-self: baseline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.96;
+  padding: 0;
+  margin: auto 0 6px 0;
+  list-style: none;
+}
+
+.header__lang-link :first-of-type :first-of-type {
+  width: 30px;
+  height: 28px;
+  line-height: 1.1;
+  text-decoration-line: none;
+  margin-right: 18px;
+  color: #FFF;
+  border-bottom: 2px solid white;
+  }
+
+  .header__lang-link :last-of-type :first-of-type {
+    width: 29px;
+    height: 28px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: #FFF;
+    }

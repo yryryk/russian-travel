@@ -1,0 +1,7 @@
+.header {
+  height: var(--header-height);
+  min-width: 260px;
+  display: flex;
+  justify-content: space-between;
+  margin: var(--header-margin-top) var(--header-horizontal-margin) 0;
+}

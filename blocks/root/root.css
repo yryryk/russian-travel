@@ -1,0 +1,55 @@
+
+/* Изменяемые при масштабировании параметры блоков */
+:root {
+  --header-horizontal-margin: 48px;
+  --header-margin-top: 28px;
+  --header-height: 52px;
+  --lead-horizontal-margin: auto;
+  --lead-margin-top: 56px;
+  --intro-left-margin: calc((100% - 984px) / 2);
+  --intro-right-margin: 0;
+  --intro-margin-top: 92px;
+  --photo-grid-horizontal-margin: 48px;
+  --photo-grid-margin-top: 92px;
+
+}
+
+@media (min-width: 425px) and (max-width: 1023px) {
+  :root {
+    --header-horizontal-margin: 24px;
+    --lead-margin-top: 48px;
+    --intro-left-margin: 24px;
+    --intro-right-margin: 24px;
+    --intro-margin-top: 88px;
+    --photo-grid-horizontal-margin: 24px;
+    --photo-grid-margin-top: 88px;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    --header-horizontal-margin: 16px;
+    --header-margin-top: 16px;
+    --header-height: 42px;
+    --lead-margin-top: 48px;
+    --intro-left-margin: 16px;
+    --intro-right-margin: 16px;
+    --intro-margin-top: 64px;
+    --photo-grid-horizontal-margin: 16px;
+    --photo-grid-margin-top: 64px;
+  }
+}
+/* для плавного, не ступенчатого уменьшения маргинов
+с соблюдением значений 48px и 148px в контрольных точках */
+@media (min-width: 902px) and (max-width: 1280px) {
+  :root {
+    --lead-horizontal-margin: calc((100% - 901.12px) * 100 / 256);
+  }
+}
+
+@media (min-width: 963px) and (max-width: 1280px) {
+  :root {
+    --intro-left-margin: calc((100% - 901.12px) * 100 / 256);
+    --intro-right-margin: 0;
+  }
+}
