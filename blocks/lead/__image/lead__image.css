@@ -2,7 +2,7 @@
   width: 100%;
   margin-top: 64px;
   background-image: url(../../../images/lead-polka.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 62.5%;

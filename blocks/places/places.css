@@ -1,0 +1,4 @@
+.places {
+  max-width: 984px;
+  margin: var(--places-margin-top) var(--places-horizontal-margin) 0;
+}

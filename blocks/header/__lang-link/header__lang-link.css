@@ -20,12 +20,21 @@
   margin-right: 18px;
   color: #FFF;
   border-bottom: 2px solid white;
-  }
+}
 
-  .header__lang-link :last-of-type :first-of-type {
-    width: 29px;
-    height: 28px;
-    line-height: 1.1;
-    text-decoration: none;
-    color: #FFF;
-    }
+.header__lang-link :last-of-type :first-of-type {
+  width: 29px;
+  height: 28px;
+  line-height: 1.1;
+  text-decoration: none;
+  color: #FFF;
+}
+
+@media (max-width: 767px) {
+  .header__lang-link {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 1,11;
+  }
+}

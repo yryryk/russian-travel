@@ -1,0 +1,33 @@
+.place {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  gap: 47.5px 40px;
+  margin-top: 80px;
+}
+
+.place:first-child {
+  margin: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    gap: 47px 32px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    gap: 48px 28px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 31.5px 0;
+  }
+}

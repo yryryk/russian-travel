@@ -4,3 +4,9 @@
   gap: 16px;
   margin: var(--photo-grid-margin-top) var(--photo-grid-horizontal-margin) 0;
 }
+
+@media (max-width: 425px) {
+  .photo-grid {
+    gap: 12px;
+  }
+}
