@@ -6,9 +6,9 @@
   line-height: 1.07;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .intro__title {
-    font-size: 32px;
+    font-size: calc( ( (100vw - 320px)/(767 - 320) ) * (54 - 32) + 32px);
     line-height: 1.09;
   }
 }

@@ -19,6 +19,7 @@
   left: 0;
   background: #2A2C2F;
   opacity: 0.3;
+  transition: opacity .5s ease-out;
   z-index: 1;
 }
 

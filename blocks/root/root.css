@@ -38,6 +38,7 @@
     --places-margin-top: 90px;
     --cover-margin-top: 90px;
     --footer-margin-top: 88px;
+    --footer-horizontal-margin: 24px;
   }
 }
 
@@ -70,12 +71,8 @@
   :root {
     --intro-left-margin: calc((100vw - 901.12px) * 100 / 256);
     --intro-right-margin: 0;
-  }
-}
-
-@media (min-width: 963px) and (max-width: 1280px) {
-  :root {
     --places-horizontal-margin: calc((100vw - 901.12px) * 100 / 256);
   }
 }
+
 

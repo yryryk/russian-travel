@@ -1,10 +1,10 @@
 .cover__subtitle {
   width: 360px;
-  height: 66px;
   margin: 0;
   margin-top: 32px;
   color: #FFF;
   z-index: 2;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
@@ -13,13 +13,9 @@
 
 @media (max-width: 767px) {
   .cover__subtitle {
-    width: 290px;
-    height: 48px;
-    margin-top: 16px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    margin-top: calc( ( (100vw - 320px) / (767 - 320) ) * (32 - 16) + 16px);
+    width: calc( ( (100vw - 320px) / (767 - 320) ) * (360 - 290) + 290px);
+    font-size: calc( ( (100vw - 320px)/(767 - 320) ) * (18 - 14) + 14px);
     line-height: 1.14;
   }
 }
