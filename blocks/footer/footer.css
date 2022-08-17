@@ -1,5 +1,4 @@
 .footer {
-  height: 18px;
   display: flex;
   margin: var(--footer-margin-top) var(--footer-horizontal-margin) 24px;
   justify-content: space-between;

@@ -33,6 +33,5 @@
 }
 
 .cover__background:hover::before {
-  content: "";
   opacity: 0.8;
 }
