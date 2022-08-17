@@ -1,6 +1,4 @@
-
-/* Изменяемые при масштабировании параметры блоков */
-:root {
+:root {                                             /* Изменяемые при масштабировании параметры блоков */
   --header-horizontal-margin: 48px;
   --header-margin-top: 28px;
   --header-height: 52px;
@@ -15,7 +13,7 @@
   --places-margin-top: 92px;
   --cover-horizontal-margin: auto;
   --cover-margin-top: 92px;
-  --footer-margin-top: 92px;
+  --footer-margin-top: 93px;
   --footer-horizontal-margin: 48px;
 }
 
@@ -37,7 +35,7 @@
     --places-horizontal-margin: 24px;
     --places-margin-top: 90px;
     --cover-margin-top: 90px;
-    --footer-margin-top: 88px;
+    --footer-margin-top: 89px;
     --footer-horizontal-margin: 24px;
   }
 }
@@ -59,8 +57,7 @@
     --footer-margin-top: 64px;
   }
 }
-/* для плавного не ступенчатого уменьшения маржинов
-с соблюдением значений 48px и 148px в контрольных точках */
+/* для плавного не ступенчатого уменьшения маржинов с соблюдением значений 48px и 148px в контрольных точках */
 @media (min-width: 902px) and (max-width: 1280px) {
   :root {
     --lead-horizontal-margin: calc((100vw - 901.12px) * 100 / 256);

@@ -1,13 +1,22 @@
 .cover__background {
   width: 100%;
-  padding-bottom: 62.5%;
+  height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   text-decoration: none;
+}
+
+@media (max-width: 1184px) {
+  .cover__background {
+    height: calc(100vw * 62.5 / 100);
+  }
 }
 
 .cover__background::before {

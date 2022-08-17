@@ -1,10 +1,10 @@
 .intro {
-max-width: 690px;
-margin: var(--intro-margin-top) var(--intro-right-margin) 0 var(--intro-left-margin);
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
+  max-width: 690px;
+  margin: var(--intro-margin-top) var(--intro-right-margin) 0 var(--intro-left-margin);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
